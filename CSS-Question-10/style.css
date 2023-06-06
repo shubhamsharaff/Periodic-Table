@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 90%;
+  height: 100vh;
+  margin: auto;
+  height: 100vh;
+}
+
+header {
+  height: 15%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+header > h1 {
+  width: 25%;
+  background-color: rgb(75, 165, 238);
+}
+
+header > nav {
+  width: 75%;
+  background-color: #bebbbb;
+}
+
+main {
+  height: 30%;
+  background-color: #555;
+  margin-bottom: 10px;
+}
+
+section {
+  height: 33%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+section > p {
+  background-color: lightskyblue;
+  width: 30%;
+}
+
+footer {
+  height: 15%;
+  background-color: #bebbbb;
+}
